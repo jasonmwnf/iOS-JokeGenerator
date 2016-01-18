@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Jokes</key>
+	<array>
+		<string>What happens to a frog&apos;s car when it breaks down?   It gets toad away!</string>
+		<string>Why was six scared of seven?  Because seven &quot;ate&quot; nine.</string>
+		<string>Instead of &quot;the John&quot;, I call my toilet &quot;the Jim&quot;  That way it sounds better when I say I go to the Jim first thing every morning!</string>
+		<string>Why does Humpty Dumpty love autumn?  Because Humpty Dumpty had a great fall!</string>
+	</array>
+</dict>
+</plist>

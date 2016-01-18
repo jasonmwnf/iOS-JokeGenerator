@@ -24,4 +24,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)jokeButton:(id)sender {
+    
+    NSString *fileContents = [[NSBundle mainBundle] pathForResource:@"JokeList" ofType:@"plist"];
+    NSDictionary *wordDIC = [[NSDictionary alloc] initWithContentsOfFile:fileContents];
+    
+    NSMutableArray *items = [wordDIC valueForKey:@"Jokes"];
+    int randomJoke = arc4random() % [items count];
+    NSString *word = [items objectAtIndex:randomJoke];
+    
+    [self.Label setText:[[NSString alloc] initWithFormat:@"%@", word]];
+    
+}
 @end

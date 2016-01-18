@@ -15,6 +15,7 @@
 		9632311C1C4CBE590080BA41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9632311A1C4CBE590080BA41 /* LaunchScreen.storyboard */; };
 		963231271C4CBE590080BA41 /* JokeGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963231261C4CBE590080BA41 /* JokeGeneratorTests.m */; };
 		963231321C4CBE590080BA41 /* JokeGeneratorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 963231311C4CBE590080BA41 /* JokeGeneratorUITests.m */; };
+		963231401C4CBFC00080BA41 /* JokeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9632313F1C4CBFC00080BA41 /* JokeList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9632312D1C4CBE590080BA41 /* JokeGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokeGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		963231311C4CBE590080BA41 /* JokeGeneratorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokeGeneratorUITests.m; sourceTree = "<group>"; };
 		963231331C4CBE590080BA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9632313F1C4CBFC00080BA41 /* JokeList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JokeList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				9632311A1C4CBE590080BA41 /* LaunchScreen.storyboard */,
 				9632311D1C4CBE590080BA41 /* Info.plist */,
 				9632310C1C4CBE590080BA41 /* Supporting Files */,
+				9632313F1C4CBFC00080BA41 /* JokeList.plist */,
 			);
 			path = JokeGenerator;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9632311C1C4CBE590080BA41 /* LaunchScreen.storyboard in Resources */,
+				963231401C4CBFC00080BA41 /* JokeList.plist in Resources */,
 				963231191C4CBE590080BA41 /* Assets.xcassets in Resources */,
 				963231171C4CBE590080BA41 /* Main.storyboard in Resources */,
 			);
